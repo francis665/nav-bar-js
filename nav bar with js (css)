@@ -1,0 +1,129 @@
+body{
+background-color:#F1F1F1;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+ 
+ 
+}
+.nav-main{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1000;
+}
+.btn-toggle-nav{
+  width: 60px;
+  height: 100%;
+  background-color: #00FFFF	;
+  background-image: url('https://www.freeiconspng.com/thumbs/menu-icon/menu-icon-24.png');
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  cursor: pointer;
+}
+.btn-toggle-nav:hover{
+  opacity: 0.5;
+}
+.nav-main ul{
+  display: flex;
+    flex-wrap: wrap;
+
+  padding-left: 15px;
+}
+.nav-main ul li{
+   list-style: none;
+  line-height: 60px;
+  
+}
+
+.nav-main ul li:hover{
+  background-color: gray;
+}
+
+
+.nav-main ul li a{
+  display: block;
+  height: 100%;
+  padding: 0px 10px;
+  text-transform: uppercase;
+   text-decoration: none;
+  color:#111;
+  font-family: arial;
+  font-size: 16px;
+}
+
+.nav-sidebar{
+  position: fixed;
+  bottom: 0;
+left: 0;
+  width: 50px;
+  height: calc(100vh - 60px);
+  padding: 0 5px;
+  background-color: #1b1b1b;
+z-index: 1000;
+  transition: all 0.5s ease-in-out;
+}
+.nav-sidebar ul{
+  padding-top: 15px;
+  overflow: hidden;
+  visibility: hidden;
+}
+.nav-sidebar ul li{
+  line-height: 60px;
+  list-style: none;
+}
+.nav-sidebar ul li span, .nav-sidebar ul li a{
+  display: block;
+  height: 60px;
+  padding: 0px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  color:#fff;
+  font-family: arial;
+  white-space: nowrap;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+ .nav-sidebar ul li a:hover{
+ background-color: #222;
+}
+main{
+  background-image: url('https://images.pexels.com/photos/3688579/pexels-photo-3688579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+main h1{
+  color: white;
+  font-family: arial;
+  font-size: 50px;
+  background-color: black;
+  padding: 10px;
+}
+
+@media(max-width: 600px){
+ 
+  main h1{
+    flex-direction: column;
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+ }
+
+}
