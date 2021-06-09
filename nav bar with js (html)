@@ -1,0 +1,45 @@
+<nav class="nav-main">
+  <div class="btn-toggle-nav" onclick='toggleNav()'></div>
+  <ul>
+    <li>
+      <a href="#">home</a>
+    </li>
+     <li>
+      <a href="#">portfolio</a>
+    </li>
+     <li>
+      <a href="#">about us</a>
+    </li>
+     <li>
+      <a href="#">gallery</a>
+    </li>
+     <li>
+      <a href="#">contact</a>
+    </li>
+  </ul>
+</nav>
+<aside class="nav-sidebar">
+   <ul>
+    <li>
+      <span>Projects</span>
+    </li>
+     <li>
+      <a href="#">making a website</a>
+    </li>
+     <li>
+      <a href="#">creating a video</a>
+    </li>
+     <li>
+      <a href="#">seo optimising a website</a>
+    </li>
+     <li>
+      <a href="#">walking through the park</a>
+    </li>
+       <li>
+      <a href="#">just another day at the park</a>
+    </li>
+  </ul>
+</aside>
+<main>
+  <h1>Welcome to San Fransico</h1>
+</main>
